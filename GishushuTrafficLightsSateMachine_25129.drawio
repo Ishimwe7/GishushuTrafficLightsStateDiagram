@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="LVoU2Lr9DK6mtDz614aM">
+    <mxGraphModel dx="1173" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-1" value="" style="ellipse;html=1;shape=startState;fillColor=#0000ff;strokeColor=#ff0000;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="500" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-2" value="East and West&lt;br&gt;Turns to Yellow" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffff00;strokeColor=#3e3e37;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="365" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-3" value="North and South Turns to Red" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#FF0000;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#fdf2f2;align=center;" vertex="1" parent="1">
+          <mxGeometry x="455" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitX=0.603;exitY=0.056;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="ZPAMgRPm_qsBL5uQmzzc-3" source="ZPAMgRPm_qsBL5uQmzzc-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="213" />
+              <mxPoint x="710" y="120" />
+            </Array>
+            <mxPoint x="960" y="288" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-6" value="North and South&lt;br&gt;Turns to Green" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#46dd48;strokeColor=#2bff00;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#f6eeee;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-7" value="East and West&lt;br&gt;Turns to Red" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ff0000;strokeColor=#ff0000;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#fbf4f4;align=center;" vertex="1" parent="1">
+          <mxGeometry x="510" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-8" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" edge="1" parent="1" source="ZPAMgRPm_qsBL5uQmzzc-1" target="ZPAMgRPm_qsBL5uQmzzc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" edge="1" parent="1" source="ZPAMgRPm_qsBL5uQmzzc-2" target="ZPAMgRPm_qsBL5uQmzzc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-13" value="After 60 seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="150" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-14" value="after 60 seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="290" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-15" value="After 60 seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="420" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZPAMgRPm_qsBL5uQmzzc-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.53" y="381.5" as="sourcePoint" />
+            <mxPoint x="700" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-17" value="After 60 seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-19" value="North and South&lt;br&gt;to Yellow" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#ffff00;strokeColor=#eeff00;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-18" value="After 60 seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;endArrow=open;endSize=8;strokeColor=#ff0000;fontFamily=Verdana;fontSize=12;align=left;" edge="1" parent="1" source="ZPAMgRPm_qsBL5uQmzzc-3" target="ZPAMgRPm_qsBL5uQmzzc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="120" />
+            </Array>
+            <mxPoint x="455" y="120" as="sourcePoint" />
+            <mxPoint x="490" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-4" value="East and West&amp;nbsp;&amp;nbsp;&lt;br&gt;Turns to Green" style="rounded=1;whiteSpace=wrap;html=1;arcSize=24;fillColor=#46dd48;strokeColor=#00ff88;shadow=0;comic=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;fontColor=#f4ebeb;align=center;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZPAMgRPm_qsBL5uQmzzc-7" target="ZPAMgRPm_qsBL5uQmzzc-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="300" as="sourcePoint" />
+            <mxPoint x="640" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-30" value="After 60 seconds" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="440" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPAMgRPm_qsBL5uQmzzc-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.408;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZPAMgRPm_qsBL5uQmzzc-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
